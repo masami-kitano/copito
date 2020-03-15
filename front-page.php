@@ -5,7 +5,7 @@ Template Name: top
 ?>
 <?php get_header(); ?>
 
-<div id="primary" class="content-area">
+<div id="primary" class="content-area test">
 	<main id="home-main" class="home-site-main" role="main">
 		<section class="cp-main">
 			<div class="cp-main-section">
