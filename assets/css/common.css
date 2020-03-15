@@ -1,0 +1,28 @@
+body {
+    font-family: 'ヒラギノ角ゴ ProN W3',"游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    line-height: 1.9;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+header {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    opacity: .5;
+}
+
+p {
+    font-size: 14px;
+}
