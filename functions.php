@@ -1,5 +1,12 @@
 <?php
 
+$tmp_path_arr = array(
+	'temp_uri' => get_template_directory_uri()
+);
+
+wp_enqueue_script( 'main', get_template_directory_uri() . 'assets/js/cp_home.js', '', '1.0', true );
+wp_localize_script( 'main', 'tmp_path', $tmp_path_arr );
+
 function copito_setup() {
 	add_theme_support( 'post-thumbnails' ); /* アイキャッチ */
 	add_theme_support( 'automatic-feed-links' ); /* RSSフィード */

@@ -1,9 +1,11 @@
 (function() {
     
     // スライドショー
+    var wp_temp_uri = tmp_path.temp_uri;
+
     const setImage = [
-        "https://copito-stablo.com/wp-content/themes/copito/img/copito-top1.png",
-        "https://copito-stablo.com/wp-content/themes/copito/img/copito-top3.png",
+        wp_temp_uri + "/img/copito-top1.png",
+        wp_temp_uri + "/img/copito-top3.png",
     ];
     const view = document.getElementById('view');
     const next = document.getElementById('next');
