@@ -4,7 +4,7 @@
 </div>
     <!-- content -->
     <div id="content" class="ac-container">
-        <div class="inner">
+        <div id="cp-single" class="inner">
 
             <!-- primary -->
             <main id="primary">

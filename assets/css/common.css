@@ -26,3 +26,34 @@ a:hover {
 p {
     font-size: 14px;
 }
+
+#cp-single h1 {
+    font-size: 200%;
+}
+
+#cp-single h2 {
+    font-size: 150%;
+}
+
+#cp-single h3 {
+    font-size: 120%;
+}
+
+#cp-single h4 {
+    font-size: 100%;
+}
+
+#cp-single h5 {
+    font-size: 80%;
+}
+
+#cp-single h6 {
+    font-size: 70%;
+}
+
+#cp-single p {
+    font-size: 16px;
+    line-height: 2.0;
+}
+
+
