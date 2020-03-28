@@ -4,7 +4,7 @@
 </div>
     <!-- content -->
     <div id="content" class="ac-container">
-        <div id="cp-single" class="inner">
+        <div class="inner">
 
             <!-- primary -->
             <main id="primary">
@@ -16,7 +16,7 @@
                 </div><!-- /breadcrumb -->
                 <?php endif; ?>
                 <div class="ac-flex-area">
-			        <div class="ac-flex-item">
+			        <div id="cp-single" class="ac-flex-item">
                         <?php
                         if ( have_posts() ) :
                         while ( have_posts() ) :
