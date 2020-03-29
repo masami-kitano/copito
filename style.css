@@ -1240,14 +1240,15 @@ img.cp-menu-star3 {
 }
 
 .breadcrumb {
-    padding: 1em 0;
-    border-bottom: 3px solid #999;
+    padding: 1em 0 6px;
+    border-bottom: 2px solid #999;
     margin-bottom: 2em;
     color: #999;
 }
 
 .breadcrumb span {
     color: #999;
+    font-size: 13px;
 }
 
 span.category.current-item {
