@@ -837,11 +837,10 @@ img.side-copito-img6 {
 
 .cp-menu-logo p {
     text-align: center;
-    padding: 5em 2em 2em;
+    padding: 7em 2em 2em;
 }
 
-.cp-menu-logo p:first-of-type {
-    text-align: center;
+.cp-menu-logo p.lunch-logo {
     padding-top: 4em;
 }
 
@@ -934,7 +933,7 @@ img.menu-star {
     transform: translate(0, -45px);
     transition: all 1000ms;
     position: absolute;
-    top: 21px;
+    top: 77px;
     width: 660px;
     height: auto;
 }

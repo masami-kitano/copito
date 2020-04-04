@@ -17,7 +17,7 @@ Template Name: menu
         <a name="lunch"></a>
         <div class="cp-menu">
             <div class="cp-menu-logo">
-                <p><img src="<?php bloginfo('template_directory'); ?>/img/copito-lunch-menu.png" width="120" height="auto" alt="ランチ"></p>
+                <p class="lunch-logo"><img src="<?php bloginfo('template_directory'); ?>/img/copito-lunch-menu.png" width="120" height="auto" alt="ランチ"></p>
             </div>
             <div class="cp-menu-lineup menu-lunch-bg">
             <img src="<?php bloginfo('template_directory'); ?>/img/menu-sun.png" alt="Copito" class="menu-sun">
