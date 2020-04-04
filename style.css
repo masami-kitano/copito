@@ -837,7 +837,12 @@ img.side-copito-img6 {
 
 .cp-menu-logo p {
     text-align: center;
-    padding: 2em;
+    padding: 5em 2em 2em;
+}
+
+.cp-menu-logo p:first-of-type {
+    text-align: center;
+    padding-top: 4em;
 }
 
 .cp-menu-lineup {
