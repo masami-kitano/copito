@@ -6,6 +6,7 @@
 <link rel="shortcut icon" href="https://copito-stablo.com/wp-content/themes/copito/img/Copito.ico">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <meta name="google-site-verification" content="uA7m7oLy7i_dN8oEYcWdrnNesF7B67MbFeonGYIKCqw" />
+<meta name="twitter:image" content="https://copito-stablo.com/wp-content/uploads/2020/04/copito-sns.png">
 <?php wp_head(); ?>
 </head>
 
