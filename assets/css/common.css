@@ -52,8 +52,44 @@ p {
 }
 
 #cp-single p {
+    /* padding: 5px; */
     font-size: 16px;
-    line-height: 2.0;
+    line-height: 2;
 }
 
+#cp-single p.caution {
+    padding-top: 5px;
+    line-height: 1.0;
+}
 
+@media only screen and (max-width: 599px) {
+    #cp-single h1 {
+        font-size: 140%;
+    }
+    
+    #cp-single h2 {
+        font-size: 120%;
+    }
+    
+    #cp-single h3 {
+        font-size: 95%;
+    }
+    
+    #cp-single h4 {
+        font-size: 80%;
+    }
+    
+    #cp-single h5 {
+        font-size: 60%;
+    }
+    
+    #cp-single h6 {
+        font-size: 50%;
+    }
+    
+    #cp-single p {
+        /* padding: 5px; */
+        font-size: 16px;
+        line-height: 2;
+    }
+}
