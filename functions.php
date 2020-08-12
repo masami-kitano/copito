@@ -1,5 +1,8 @@
 <?php
 
+// ツールバーの削除
+add_filter('show_admin_bar', '__return_false');
+
 $tmp_path_arr = array(
 	'temp_uri' => get_template_directory_uri()
 );
