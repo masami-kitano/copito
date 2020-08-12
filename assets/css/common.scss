@@ -1,0 +1,110 @@
+// レスポンシブ 
+$tb: 979px;
+@mixin tb{
+    @media (max-width: ($tb)) {
+        @content;
+    }
+}
+
+$sp: 599px;
+@mixin sp{
+    @media (max-width: ($sp)) {
+        @content;
+    }
+}
+
+body {
+    font-family: 'ヒラギノ角ゴ ProN W3',"游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    line-height: 1.9;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+header {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    opacity: .5;
+}
+
+p {
+    font-size: 14px;
+}
+
+#cp-single {
+    h1 {
+        font-size: 160%;
+
+        @include sp {
+            font-size: 140%;
+        }
+    }
+
+    h2 {
+        font-size: 140%;
+
+        @include sp {
+            font-size: 120%;
+        }
+    }
+
+    h3 {
+        font-size: 115%;
+
+        @include sp {
+            font-size: 95%;
+        }
+    }
+
+    h4 {
+        font-size: 100%;
+
+        @include sp {
+            font-size: 80%;
+        }
+    }
+
+    h5 {
+        font-size: 80%;
+
+        @include sp {
+            font-size: 60%;
+        }
+    }
+
+    h6 {
+        font-size: 70%;
+
+        @include sp {
+            font-size: 50%;
+        }
+    }
+
+    p {
+        /* padding: 5px; */
+        font-size: 16px;
+        line-height: 2;
+
+        @include sp {
+            /* padding: 5px; */
+            font-size: 16px;
+            line-height: 2;
+        }
+
+        &.caution {
+            padding-top: 5px;
+            line-height: 1.0;
+        }
+    }
+}

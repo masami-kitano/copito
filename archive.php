@@ -1,16 +1,4 @@
-<?php
-/**
- * The template for displaying archive pages
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package WordPress
- * @subpackage Twenty_Seventeen
- * @since 1.0
- * @version 1.0
- */
-
-get_header(); ?>
+<?php get_header(); ?>
 <div class="custom-header">
 	<img src="<?php bloginfo('template_directory'); ?>/img/copito-top1.png" alt="copitoメインイメージ">
 </div>

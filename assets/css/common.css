@@ -1,95 +1,109 @@
+@charset "UTF-8";
 body {
-    font-family: 'ヒラギノ角ゴ ProN W3',"游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
-    line-height: 1.9;
-    letter-spacing: 1px;
-    width: 100%;
+  font-family: 'ヒラギノ角ゴ ProN W3',"游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+  line-height: 1.9;
+  letter-spacing: 1px;
+  width: 100%;
 }
 
 header {
-    margin: 0;
+  margin: 0;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    color: #000;
-    text-decoration: none;
+  color: #000;
+  text-decoration: none;
 }
 
 a:hover {
-    cursor: pointer;
-    opacity: .5;
+  cursor: pointer;
+  opacity: .5;
 }
 
 p {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 #cp-single h1 {
-    font-size: 160%;
+  font-size: 160%;
+}
+
+@media (max-width: 599px) {
+  #cp-single h1 {
+    font-size: 140%;
+  }
 }
 
 #cp-single h2 {
-    font-size: 140%;
+  font-size: 140%;
+}
+
+@media (max-width: 599px) {
+  #cp-single h2 {
+    font-size: 120%;
+  }
 }
 
 #cp-single h3 {
-    font-size: 115%;
+  font-size: 115%;
+}
+
+@media (max-width: 599px) {
+  #cp-single h3 {
+    font-size: 95%;
+  }
 }
 
 #cp-single h4 {
-    font-size: 100%;
+  font-size: 100%;
+}
+
+@media (max-width: 599px) {
+  #cp-single h4 {
+    font-size: 80%;
+  }
 }
 
 #cp-single h5 {
-    font-size: 80%;
+  font-size: 80%;
+}
+
+@media (max-width: 599px) {
+  #cp-single h5 {
+    font-size: 60%;
+  }
 }
 
 #cp-single h6 {
-    font-size: 70%;
+  font-size: 70%;
+}
+
+@media (max-width: 599px) {
+  #cp-single h6 {
+    font-size: 50%;
+  }
 }
 
 #cp-single p {
+  /* padding: 5px; */
+  font-size: 16px;
+  line-height: 2;
+}
+
+@media (max-width: 599px) {
+  #cp-single p {
     /* padding: 5px; */
     font-size: 16px;
     line-height: 2;
+  }
 }
 
 #cp-single p.caution {
-    padding-top: 5px;
-    line-height: 1.0;
+  padding-top: 5px;
+  line-height: 1.0;
 }
-
-@media only screen and (max-width: 599px) {
-    #cp-single h1 {
-        font-size: 140%;
-    }
-    
-    #cp-single h2 {
-        font-size: 120%;
-    }
-    
-    #cp-single h3 {
-        font-size: 95%;
-    }
-    
-    #cp-single h4 {
-        font-size: 80%;
-    }
-    
-    #cp-single h5 {
-        font-size: 60%;
-    }
-    
-    #cp-single h6 {
-        font-size: 50%;
-    }
-    
-    #cp-single p {
-        /* padding: 5px; */
-        font-size: 16px;
-        line-height: 2;
-    }
-}
+/*# sourceMappingURL=common.css.map */
