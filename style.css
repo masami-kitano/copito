@@ -65,7 +65,7 @@ body {
 
 /* ナビメニュー */
 .menu-global-menu-container ul {
-  margin: 15px auto 10px;
+  margin: 15px auto 20px;
   width: 75%;
   font-size: 16px;
 }
@@ -269,11 +269,11 @@ body {
 }
 
 .cp-main-left, .cp-main-right {
-  width: 7.5%;
+  width: 10%;
 }
 
 .cp-main-left-title, .cp-main-right-title {
-  padding-top: 190%;
+  padding-top: 130%;
   padding-bottom: 20px;
   text-align: center;
 }
@@ -305,13 +305,14 @@ body {
 
 .cp-main-img {
   position: relative;
-  width: 85%;
+  width: 80%;
   height: auto;
 }
 
 .cp-main-img img {
   width: 100%;
   vertical-align: bottom;
+  border-radius: 5px;
 }
 
 a.cp-scroll-icon {
@@ -811,11 +812,44 @@ img.side-copito-img6 {
 .cp-menu-wrap {
   font-family: "FOT-クレー Pro M", KleePro-M;
   margin: 0 auto 1em;
+  padding: 50px 0;
   width: 650px;
+}
+
+.cp-menu-wrap h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+}
+
+.cp-menu-wrap h3::before, .cp-menu-wrap h3::after {
+  position: relative;
+  content: "";
+  background-color: #616161;
+  display: inline-block;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  height: 1px;
+  margin: 0 2rem;
+  vertical-align: middle;
 }
 
 .cp-menu-wrap p {
   font-size: 95%;
+  line-height: 2.0;
+}
+
+.cp-menu-wrap table {
+  border: 1px solid #999;
+}
+
+.cp-menu-wrap table td {
+  padding: 0 20px;
 }
 
 @media only screen and (max-width: 700px) {
