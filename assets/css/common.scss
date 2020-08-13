@@ -94,12 +94,10 @@ p {
     p {
         /* padding: 5px; */
         font-size: 16px;
-        line-height: 2;
 
         @include sp {
             /* padding: 5px; */
             font-size: 16px;
-            line-height: 2;
         }
 
         &.caution {
