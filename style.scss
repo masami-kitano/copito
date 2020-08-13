@@ -1489,4 +1489,47 @@ h2.cp-access-page-title {
     padding: 5em 0;
 }
 
+/* editor */
+ 
+p {
+    display: block;
+    margin: 1em 0;
+}
+strong { font-weight: bold; }
+em { font-style: italic; }
+blockquote {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 40px;
+    -webkit-margin-end: 40px;
+}
+ 
+
+// 投稿画面のエディタ用CSS 
+.aligncenter {
+    display: block;
+    margin: 0 auto;
+}
+.alignright { float: right; }
+.alignleft { float: left; }
+ 
+img[class*="wp-image-"],
+img[class*="attachment-"] {
+    height: auto;
+    max-width: 100%;
+}
+ 
+/* clearfix */
+ 
+.clearfix {
+    overflow: hidden;
+    zoom: 1;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 
