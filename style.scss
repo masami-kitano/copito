@@ -837,9 +837,8 @@ img.side-copito-img6 {
     }
 
     table {
-        border: 1px solid #999;
         td {
-            padding: 0 20px;
+            padding: 0 10px;
         }
     }
 } 
@@ -1532,4 +1531,9 @@ img[class*="attachment-"] {
     clear: both;
 }
 
+// TinyMCE用CSS
+.square {
+    border: 1px solid #999;
+    padding: 10px;
+}
 

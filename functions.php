@@ -104,3 +104,16 @@ function copito_widgets_init() {
 	);	
 }
 add_action( 'widgets_init', 'copito_widgets_init' );
+
+// TinyMCE 追加ボタン
+add_filter( 'mce_external_plugins', 'add_original_tinymce_button_plugin' );
+function add_original_tinymce_button_plugin( $plugin_array ) {
+    $plugin_array[ 'original_tinymce_button_plugin' ] = get_template_directory_uri() . '/assets/js/setting-template.js'; // 先ほど作成したJSファイルまでのパス
+    return $plugin_array;
+}
+
+add_filter( 'mce_buttons', 'add_original_tinymce_button' );
+function add_original_tinymce_button( $buttons ) {
+    $buttons[] = 'square';
+    return $buttons;
+}

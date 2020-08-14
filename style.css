@@ -844,12 +844,8 @@ img.side-copito-img6 {
   line-height: 1.5;
 }
 
-.cp-menu-wrap table {
-  border: 1px solid #999;
-}
-
 .cp-menu-wrap table td {
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 @media only screen and (max-width: 700px) {
@@ -1603,5 +1599,10 @@ img[class*="attachment-"] {
   content: "";
   display: block;
   clear: both;
+}
+
+.square {
+  border: 1px solid #999;
+  padding: 10px;
 }
 /*# sourceMappingURL=style.css.map */
