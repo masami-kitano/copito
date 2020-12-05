@@ -137,7 +137,7 @@ Template Name: top
 								<h2>Contact</h2>
 							</div>
 							<div class="contact-item">
-								<div class="cp-tel" style="text-align: center; padding-bottom: 1em;"><a href="tel:072-242-3125">06-7222-9840</a></div>
+								<div class="cp-tel" style="text-align: center; padding-bottom: 1em;"><a href="tel:06-7222-9840">06-7222-9840</a></div>
 								<!-- <div class="cp-mail checkbox"><a href="mailto:copito@gmail.com"><span>✔︎</span>copito@gmail.com</a></div> -->
 							</div>
 						</div>
